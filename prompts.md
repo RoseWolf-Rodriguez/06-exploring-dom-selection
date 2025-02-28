@@ -1,6 +1,4 @@
-## Prompt 1
-Instead of displaying the movies from a `movieList` array, use a `for` loop to display them in a list.
+## Theme Toggle Prompt 
+Add a simple theme toggler that toggles between the defaulr "dark" mode and "light" mode.
 
-## Prompt 2
-Create an array of movie objects for each genre, where each movie has a title, year, and a short description. 
-Modify the code to loop over an array of movie objects and display the title, year, and description in the list.
+The toggle switch should appear in the top right corner of the page.

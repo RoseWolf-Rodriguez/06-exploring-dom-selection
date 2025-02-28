@@ -65,3 +65,45 @@ li {
   font-size: 20px;
   text-align: left;
 }
+
+/* Theme toggle button styles */
+#themeToggle {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  top: 25px;
+  right: 25px;
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 10px;
+  line-height: 0;
+  border-radius: 50%;
+  background: #393e46;
+}
+
+/* Light theme styles */
+body.light-theme {
+  background-color: #f0f0f0;
+  color: #222831;
+}
+
+body.light-theme .container {
+  background: #ffffff;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme select {
+  background: #ffffff;
+  color: #222831;
+  border-color: #dddddd;
+}
+
+body.light-theme li {
+  background: #ff8585;
+}
+
+body.light-theme #themeToggle {
+  background: #ffffff;
+}
