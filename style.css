@@ -99,11 +99,6 @@ body.light-theme select {
   color: #222831;
   border-color: #dddddd;
 }
-
-body.light-theme li {
-  background: #ff8585;
-}
-
 body.light-theme #themeToggle {
   background: #ffffff;
 }
